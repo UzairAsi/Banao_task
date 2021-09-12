@@ -4,10 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/public
 # testing
 /coverage
-
+/package.json
+/package-lock.json
+/firebase.json
+/.firebaserc
+/.firebase
 # production
 /build
 

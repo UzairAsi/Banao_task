@@ -1,0 +1,28 @@
+.card {
+  width: 40rem;
+  margin-left: 45px;
+}
+
+.img_cards {
+  display: inline;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+h4 {
+  display: inline;
+}
+
+@media (max-width: 690px) {
+  .card {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 930px) {
+  .card {
+    margin-top: 0 !important;
+  }
+}
